@@ -1,0 +1,10 @@
+numpy >= 1.13.0
+pandas
+matplotlib
+pytest
+pytest-timeout
+sphinx
+torch
+torchvision
+radiant_mlhub
+torchmetrics

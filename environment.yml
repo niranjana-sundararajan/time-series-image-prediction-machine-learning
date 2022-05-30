@@ -1,0 +1,25 @@
+name: hurricane
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+ - pip==21.0.1
+ - ipython
+ - jupyter
+ - numpy
+ - scipy
+ - pandas
+ - matplotlib
+ - pytest
+ - pytest-timeout
+ - sphinx
+ - torch
+ - torchvision
+ - radiant_mlhub
+ - torchmetrics
+ - pathlib
+ - os
+ - glob
+ - googledrivedownloader
+ - pip:
+   - -r requirements.txt
